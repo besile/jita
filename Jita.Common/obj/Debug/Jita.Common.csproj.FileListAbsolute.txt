@@ -1,0 +1,15 @@
+E:\work\Jita\Jita.Common\obj\Debug\Jita.Common.csprojResolveAssemblyReference.cache
+E:\work\Jita\Jita.Common\bin\Debug\Jita.Common.dll
+E:\work\Jita\Jita.Common\bin\Debug\Jita.Common.pdb
+E:\work\Jita\Jita.Common\bin\Debug\Jita.Code.dll
+E:\work\Jita\Jita.Common\bin\Debug\Jita.Common.Attr.dll
+E:\work\Jita\Jita.Common\bin\Debug\Jita.Memcache.dll
+E:\work\Jita\Jita.Common\bin\Debug\Jita.Common.Config.dll
+E:\work\Jita\Jita.Common\bin\Debug\Enyim.Caching.dll
+E:\work\Jita\Jita.Common\bin\Debug\log4net.dll
+E:\work\Jita\Jita.Common\bin\Debug\Jita.Code.pdb
+E:\work\Jita\Jita.Common\bin\Debug\Jita.Common.Attr.pdb
+E:\work\Jita\Jita.Common\bin\Debug\Jita.Memcache.pdb
+E:\work\Jita\Jita.Common\bin\Debug\Jita.Common.Config.pdb
+E:\work\Jita\Jita.Common\obj\Debug\Jita.Common.dll
+E:\work\Jita\Jita.Common\obj\Debug\Jita.Common.pdb

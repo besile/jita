@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>8af3a7ef-c43a-4f9c-83d9-2e0e3c8c3de3</ProjectGuid>
+    <ProjectGuid>{A22D83C5-A7DE-4753-9B24-EC03B2249AE2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Jita.Common.Attr</RootNamespace>
@@ -40,7 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Attr_CacheDataAttribute.cs" />
+    <Compile Include="Attr_CachePrimaryKeyAttribute.cs" />
+    <Compile Include="Attr_MatchFieldAttribute.cs" />
+    <Compile Include="Attr_RemoveCacheAttribute.cs" />
+    <Compile Include="Attr_RequestParameterAttribute.cs" />
+    <Compile Include="Attr_WriteLogAttribute.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,0 +1,4 @@
+E:\work\Jita\Jita.DAL\bin\Debug\Jita.DAL.dll
+E:\work\Jita\Jita.DAL\bin\Debug\Jita.DAL.pdb
+E:\work\Jita\Jita.DAL\obj\Debug\Jita.DAL.dll
+E:\work\Jita\Jita.DAL\obj\Debug\Jita.DAL.pdb

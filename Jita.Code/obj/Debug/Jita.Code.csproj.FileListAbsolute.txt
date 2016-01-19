@@ -1,0 +1,7 @@
+E:\work\Jita\Jita.Code\bin\Debug\Jita.Code.dll
+E:\work\Jita\Jita.Code\bin\Debug\Jita.Code.pdb
+E:\work\Jita\Jita.Code\bin\Debug\Jita.Common.Config.dll
+E:\work\Jita\Jita.Code\bin\Debug\Jita.Common.Config.pdb
+E:\work\Jita\Jita.Code\obj\Debug\Jita.Code.csprojResolveAssemblyReference.cache
+E:\work\Jita\Jita.Code\obj\Debug\Jita.Code.dll
+E:\work\Jita\Jita.Code\obj\Debug\Jita.Code.pdb

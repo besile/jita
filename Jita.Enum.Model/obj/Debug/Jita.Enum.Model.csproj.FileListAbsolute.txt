@@ -1,0 +1,4 @@
+E:\work\Jita\Jita.Enum.Model\bin\Debug\Jita.Enum.Model.dll
+E:\work\Jita\Jita.Enum.Model\bin\Debug\Jita.Enum.Model.pdb
+E:\work\Jita\Jita.Enum.Model\obj\Debug\Jita.Enum.Model.dll
+E:\work\Jita\Jita.Enum.Model\obj\Debug\Jita.Enum.Model.pdb

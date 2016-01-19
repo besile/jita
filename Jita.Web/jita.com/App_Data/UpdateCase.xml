@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<InvokeConfig>
+  <KeyItem ID="通过逻辑层添加单条口碑">
+    <AssemblyPath>KouBei.BLL</AssemblyPath>
+    <ClassName>KouBei.BLL.bll_Topic</ClassName>
+    <MethodName>CreateTopic</MethodName>
+  </KeyItem>
+</InvokeConfig>

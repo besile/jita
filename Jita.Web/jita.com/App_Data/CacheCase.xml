@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CacheKey>
+  <KeyItem ID="CacheCarList">
+    <Pre>B_KB_Car_</Pre>
+    <AssemblyPath>KouBei.Cache.Service</AssemblyPath>
+    <ClassName>KouBei.Cache.Service.bll.srv_Car</ClassName>
+    <MethodName>GetSerialAndTrimBySerialIds</MethodName>
+    <ExpTime>72000</ExpTime>
+  </KeyItem>
+</CacheKey>

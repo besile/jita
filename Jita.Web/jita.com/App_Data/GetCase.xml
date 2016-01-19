@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<InvokeConfig>
+  <KeyItem ID="通过逻辑层获取热门车型">
+    <AssemblyPath>KouBei.BLL</AssemblyPath>
+    <ClassName>KouBei.BLL.bll_Car</ClassName>
+    <MethodName>GetHotModelsIds</MethodName>
+  </KeyItem>
+</InvokeConfig>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CacheKey>
+  <KeyItem ID="RemoveCacheTopic">
+    <Pre>B_KB_Topic_</Pre>
+    <AssemblyPath>KouBei.Cache.Service</AssemblyPath>
+    <ClassName>KouBei.Cache.Service.bll.srv_Topic</ClassName>
+    <MethodName>GetTopicGuidsByIds</MethodName>
+    <!--是否删除以Guid为Key的缓存-->
+    <GuidCacheHandel>true</GuidCacheHandel>
+    <!--以Guid为Key的缓存前缀-->
+    <GuidPre>B_KB_Topic_</GuidPre>
+  </KeyItem>
+</CacheKey>

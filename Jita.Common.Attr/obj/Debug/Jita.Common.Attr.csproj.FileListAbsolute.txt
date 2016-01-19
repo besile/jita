@@ -1,0 +1,4 @@
+E:\work\Jita\Jita.Common.Attr\bin\Debug\Jita.Common.Attr.dll
+E:\work\Jita\Jita.Common.Attr\bin\Debug\Jita.Common.Attr.pdb
+E:\work\Jita\Jita.Common.Attr\obj\Debug\Jita.Common.Attr.dll
+E:\work\Jita\Jita.Common.Attr\obj\Debug\Jita.Common.Attr.pdb

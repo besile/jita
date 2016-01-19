@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>5c9e7804-2672-4966-9884-ed1190609cb7</ProjectGuid>
+    <ProjectGuid>{A6095750-6FF8-4C68-9D9E-B92F897339C3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Jita.Data.Model</RootNamespace>

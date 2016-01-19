@@ -1,0 +1,4 @@
+E:\work\Jita\Jita.UI.Model\bin\Debug\Jita.UI.Model.dll
+E:\work\Jita\Jita.UI.Model\bin\Debug\Jita.UI.Model.pdb
+E:\work\Jita\Jita.UI.Model\obj\Debug\Jita.UI.Model.dll
+E:\work\Jita\Jita.UI.Model\obj\Debug\Jita.UI.Model.pdb

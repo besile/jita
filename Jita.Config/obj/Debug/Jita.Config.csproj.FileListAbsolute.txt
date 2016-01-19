@@ -1,0 +1,4 @@
+E:\work\Jita\Jita.Config\bin\Debug\Jita.Config.dll
+E:\work\Jita\Jita.Config\bin\Debug\Jita.Config.pdb
+E:\work\Jita\Jita.Config\obj\Debug\Jita.Config.dll
+E:\work\Jita\Jita.Config\obj\Debug\Jita.Config.pdb

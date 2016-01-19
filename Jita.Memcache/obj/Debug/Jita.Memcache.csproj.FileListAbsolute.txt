@@ -1,0 +1,10 @@
+E:\work\Jita\Jita.Memcache\bin\Debug\Jita.Memcache.dll
+E:\work\Jita\Jita.Memcache\bin\Debug\Jita.Memcache.pdb
+E:\work\Jita\Jita.Memcache\bin\Debug\Enyim.Caching.dll
+E:\work\Jita\Jita.Memcache\bin\Debug\Jita.Common.Config.dll
+E:\work\Jita\Jita.Memcache\bin\Debug\log4net.dll
+E:\work\Jita\Jita.Memcache\bin\Debug\Memcached.ClientLibrary.dll
+E:\work\Jita\Jita.Memcache\bin\Debug\Jita.Common.Config.pdb
+E:\work\Jita\Jita.Memcache\obj\Debug\Jita.Memcache.csprojResolveAssemblyReference.cache
+E:\work\Jita\Jita.Memcache\obj\Debug\Jita.Memcache.dll
+E:\work\Jita\Jita.Memcache\obj\Debug\Jita.Memcache.pdb

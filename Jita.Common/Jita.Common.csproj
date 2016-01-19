@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>6b1c45fa-360d-4fab-9633-cfbe357c9d70</ProjectGuid>
+    <ProjectGuid>{C81B88F2-5AC2-4FD5-9017-4421DC63790C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Jita.Common</RootNamespace>
@@ -32,7 +32,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,8 +45,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="com_GlobalDic.cs" />
+    <Compile Include="com_HtmlHelper.cs" />
+    <Compile Include="com_MemcacheCacheManager.cs" />
+    <Compile Include="com_ModelFillHelper.cs" />
+    <Compile Include="com_Pager.cs" />
+    <Compile Include="com_QueryString.cs" />
+    <Compile Include="com_ReflectionHelper.cs" />
+    <Compile Include="com_RequestParameterHelper.cs" />
+    <Compile Include="com_SerializationHelper.cs" />
+    <Compile Include="com_SingletonHelp.cs" />
+    <Compile Include="com_TypeHelper.cs" />
+    <Compile Include="com_UploadHelper.cs" />
+    <Compile Include="com_ValidateCodeHelper.cs" />
+    <Compile Include="com_XmlLoad.cs" />
+    <Compile Include="GDI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RequestHelper.cs" />
+    <Compile Include="TypeParse.cs" />
+    <Compile Include="WebUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Jita.Code\Jita.Code.csproj">
+      <Project>{DD18F081-71B8-46FF-B272-4308EEFE67B0}</Project>
+      <Name>Jita.Code</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Jita.Common.Attr\Jita.Common.Attr.csproj">
+      <Project>{A22D83C5-A7DE-4753-9B24-EC03B2249AE2}</Project>
+      <Name>Jita.Common.Attr</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Jita.Memcache\Jita.Memcache.csproj">
+      <Project>{9634D9FB-3DD5-4BD3-955B-3F1F5627211D}</Project>
+      <Name>Jita.Memcache</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

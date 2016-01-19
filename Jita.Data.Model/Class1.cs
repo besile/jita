@@ -7,5 +7,6 @@ namespace Jita.Data.Model
 {
     public class Class1
     {
+        
     }
 }

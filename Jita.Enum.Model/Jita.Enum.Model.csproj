@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>33c48a55-a302-489b-9630-aef6e471f87c</ProjectGuid>
+    <ProjectGuid>{586019C4-11DC-46FF-B33C-F5432A08B861}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Jita.Enum.Model</RootNamespace>

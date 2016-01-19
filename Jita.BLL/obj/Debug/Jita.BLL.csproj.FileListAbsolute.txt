@@ -1,0 +1,4 @@
+E:\work\Jita\Jita.BLL\bin\Debug\Jita.BLL.dll
+E:\work\Jita\Jita.BLL\bin\Debug\Jita.BLL.pdb
+E:\work\Jita\Jita.BLL\obj\Debug\Jita.BLL.dll
+E:\work\Jita\Jita.BLL\obj\Debug\Jita.BLL.pdb
