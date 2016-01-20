@@ -47,6 +47,7 @@
     <Compile Include="CommonConfigCollection.cs" />
     <Compile Include="CommonPlatformConfiguration.cs" />
     <Compile Include="CommonPlatformConfiurationSectionHandler.cs" />
+    <Compile Include="DBConfig.cs" />
     <Compile Include="FckEditorConfig.cs" />
     <Compile Include="PoliticsConfig.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

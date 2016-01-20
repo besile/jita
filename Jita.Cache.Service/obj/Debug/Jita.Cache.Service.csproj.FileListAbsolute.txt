@@ -17,3 +17,7 @@ E:\work\Jita\Jita.Cache.Service\bin\Debug\Jita.Code.pdb
 E:\work\Jita\Jita.Cache.Service\bin\Debug\Jita.Common.Config.pdb
 E:\work\Jita\Jita.Cache.Service\obj\Debug\Jita.Cache.Service.dll
 E:\work\Jita\Jita.Cache.Service\obj\Debug\Jita.Cache.Service.pdb
+E:\work\Jita\Jita.Cache.Service\bin\Debug\Jita.DAL.dll
+E:\work\Jita\Jita.Cache.Service\bin\Debug\Jita.Data.Model.dll
+E:\work\Jita\Jita.Cache.Service\bin\Debug\Jita.DAL.pdb
+E:\work\Jita\Jita.Cache.Service\bin\Debug\Jita.Data.Model.pdb

@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bll\srv_HumorInfo.cs" />
     <Compile Include="model\m_CacheConfig.cs" />
     <Compile Include="model\m_CacheRemoveConfig.cs" />
     <Compile Include="srv_CacheConfig.cs" />
@@ -49,9 +50,7 @@
     <Compile Include="srv_MemcacheCacheManager.cs" />
     <Compile Include="srv_RemoveCacheConfig.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="bll\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Jita.Common.Attr\Jita.Common.Attr.csproj">
       <Project>{A22D83C5-A7DE-4753-9B24-EC03B2249AE2}</Project>
@@ -64,6 +63,14 @@
     <ProjectReference Include="..\Jita.Config\Jita.Config.csproj">
       <Project>{D21CDAB5-41CC-4D87-96B1-67E7FC1C2571}</Project>
       <Name>Jita.Config %28Jita.Config\Jita.Config%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Jita.DAL\Jita.DAL.csproj">
+      <Project>{CF2F9F38-6023-45E4-8306-274896CA869B}</Project>
+      <Name>Jita.DAL %28Jita.DAL\Jita.DAL%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Jita.Data.Model\Jita.Data.Model.csproj">
+      <Project>{A6095750-6FF8-4C68-9D9E-B92F897339C3}</Project>
+      <Name>Jita.Data.Model</Name>
     </ProjectReference>
     <ProjectReference Include="..\Jita.Memcache\Jita.Memcache.csproj">
       <Project>{9634D9FB-3DD5-4BD3-955B-3F1F5627211D}</Project>

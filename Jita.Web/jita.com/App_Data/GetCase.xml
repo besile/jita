@@ -4,5 +4,15 @@
     <AssemblyPath>KouBei.BLL</AssemblyPath>
     <ClassName>KouBei.BLL.bll_Car</ClassName>
     <MethodName>GetHotModelsIds</MethodName>
+    <Cache2On>1</Cache2On>
+    <Cache2Config>
+      <PreKey>B_KB_Car_2_</PreKey>
+      <Time>300</Time>
+    </Cache2Config>
+  </KeyItem>
+  <KeyItem ID="通过逻辑层获取首页帖子列表">
+    <AssemblyPath>Jita.BLL</AssemblyPath>
+    <ClassName>Jita.BLL.bll_HumorInfo</ClassName>
+    <MethodName>GetIndexHumorInfos</MethodName>
   </KeyItem>
 </InvokeConfig>

@@ -40,8 +40,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="bll_HumorInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Jita.Common.Attr\Jita.Common.Attr.csproj">
+      <Project>{A22D83C5-A7DE-4753-9B24-EC03B2249AE2}</Project>
+      <Name>Jita.Common.Attr</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Jita.DAL\Jita.DAL.csproj">
+      <Project>{CF2F9F38-6023-45E4-8306-274896CA869B}</Project>
+      <Name>Jita.DAL %28Jita.DAL\Jita.DAL%29</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Jita.Data.Model\Jita.Data.Model.csproj">
+      <Project>{A6095750-6FF8-4C68-9D9E-B92F897339C3}</Project>
+      <Name>Jita.Data.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

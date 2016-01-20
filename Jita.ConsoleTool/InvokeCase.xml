@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<InvokeConfig>
+  <KeyItem ID="通过逻辑层获取帖子列表">
+    <AssemblyPath>Jita.BLL</AssemblyPath>
+    <ClassName>Jita.BLL.bll_HumorInfo</ClassName>
+    <MethodName>GetHumorInfos</MethodName>
+  </KeyItem>
+</InvokeConfig>

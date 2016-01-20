@@ -5,7 +5,7 @@
     void Application_Start(object sender, EventArgs e) 
     {
         //在应用程序启动时运行的代码
-        app_Global.LoadConfigFile();
+        //app_Global.LoadConfigFile();
     }
     
     void Application_End(object sender, EventArgs e) 

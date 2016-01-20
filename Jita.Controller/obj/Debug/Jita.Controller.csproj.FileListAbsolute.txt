@@ -19,3 +19,7 @@ E:\work\Jita\Jita.Controller\bin\Debug\Jita.Code.pdb
 E:\work\Jita\Jita.Controller\bin\Debug\Jita.Common.Config.pdb
 E:\work\Jita\Jita.Controller\obj\Debug\Jita.Controller.dll
 E:\work\Jita\Jita.Controller\obj\Debug\Jita.Controller.pdb
+E:\work\Jita\Jita.Controller\bin\Debug\Jita.Data.Model.dll
+E:\work\Jita\Jita.Controller\bin\Debug\Jita.DAL.dll
+E:\work\Jita\Jita.Controller\bin\Debug\Jita.Data.Model.pdb
+E:\work\Jita\Jita.Controller\bin\Debug\Jita.DAL.pdb

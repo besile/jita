@@ -19,7 +19,8 @@ namespace Jita.Config
         public static string GetConfigFilePath(string filePath)
         {
             if (filePath == null || filePath.Length == 0) return null;
-            return HttpContext.Current.Server.MapPath(filePath);
+            return  string.Concat(AppDomain.CurrentDomain.BaseDirectory ,filePath);
+            //return HttpContext.Current.Server.MapPath(filePath);
         }
 
         public static bool OpenCache

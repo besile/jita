@@ -2,3 +2,6 @@ E:\work\Jita\Jita.Data.Model\bin\Debug\Jita.Data.Model.dll
 E:\work\Jita\Jita.Data.Model\bin\Debug\Jita.Data.Model.pdb
 E:\work\Jita\Jita.Data.Model\obj\Debug\Jita.Data.Model.dll
 E:\work\Jita\Jita.Data.Model\obj\Debug\Jita.Data.Model.pdb
+E:\work\Jita\Jita.Data.Model\bin\Debug\Jita.Common.Attr.dll
+E:\work\Jita\Jita.Data.Model\bin\Debug\Jita.Common.Attr.pdb
+E:\work\Jita\Jita.Data.Model\obj\Debug\Jita.Data.Model.csprojResolveAssemblyReference.cache

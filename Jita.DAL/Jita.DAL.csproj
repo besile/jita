@@ -40,8 +40,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="dal_HumorInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Jita.Common.Config\Jita.Common.Config.csproj">
+      <Project>{2F79C306-6BF2-48B7-B701-DA2A666416D4}</Project>
+      <Name>Jita.Common.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Jita.Common\Jita.Common.csproj">
+      <Project>{C81B88F2-5AC2-4FD5-9017-4421DC63790C}</Project>
+      <Name>Jita.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Jita.Config\Jita.Config.csproj">
+      <Project>{D21CDAB5-41CC-4D87-96B1-67E7FC1C2571}</Project>
+      <Name>Jita.Config %28Jita.Config\Jita.Config%29</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
