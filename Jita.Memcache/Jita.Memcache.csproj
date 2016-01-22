@@ -55,7 +55,7 @@
     <Compile Include="ArrayRelation.cs" />
     <Compile Include="CacheProvider.cs" />
     <Compile Include="CacheProviderCollection.cs" />
-    <Compile Include="Class1.cs" />
+    <Compile Include="MemcacheCacheManager.cs" />
     <Compile Include="DistCache.cs" />
     <Compile Include="DistCacheWrapper.cs" />
     <Compile Include="EnyimProvider.cs" />

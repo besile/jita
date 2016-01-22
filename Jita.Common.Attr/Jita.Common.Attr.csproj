@@ -40,8 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Attr_AddLuceneAttribute.cs" />
     <Compile Include="Attr_CacheDataAttribute.cs" />
     <Compile Include="Attr_CachePrimaryKeyAttribute.cs" />
+    <Compile Include="Attr_LuceneAttribute.cs" />
     <Compile Include="Attr_MatchFieldAttribute.cs" />
     <Compile Include="Attr_RemoveCacheAttribute.cs" />
     <Compile Include="Attr_RequestParameterAttribute.cs" />

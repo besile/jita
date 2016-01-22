@@ -29,7 +29,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jita.Config", "Jita.Config\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jita.Common.Attr", "Jita.Common.Attr\Jita.Common.Attr.csproj", "{A22D83C5-A7DE-4753-9B24-EC03B2249AE2}"
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "admin.jita.com", "Jita.Web\admin.jita.com\", "{4B668A64-BEDD-4FAA-986A-5B353E353D0F}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "admin.jita.com", "Jita.Web\admin.jita.com", "{4B668A64-BEDD-4FAA-986A-5B353E353D0F}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/admin.jita.com"
@@ -50,10 +50,10 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "admin.jita.com", "Jita.Web\
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "jita.com", "Jita.Web\jita.com\", "{28EFD6AD-00F9-4588-B6F4-3DC160698391}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "jita.com", "Jita.Web\jita.com", "{28EFD6AD-00F9-4588-B6F4-3DC160698391}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
-		ProjectReferences = "{D21CDAB5-41CC-4D87-96B1-67E7FC1C2571}|Jita.Config.dll;{C81B88F2-5AC2-4FD5-9017-4421DC63790C}|Jita.Common.dll;{95E1DB2E-C042-4874-8FB0-FC42B68B965A}|Jita.Cache.Service.dll;{E7D7756E-9ABE-4E8C-8287-DD2CE203DCF3}|Jita.Controller.dll;{DD18F081-71B8-46FF-B272-4308EEFE67B0}|Jita.Code.dll;{2F79C306-6BF2-48B7-B701-DA2A666416D4}|Jita.Common.Config.dll;{A22D83C5-A7DE-4753-9B24-EC03B2249AE2}|Jita.Common.Attr.dll;{9634D9FB-3DD5-4BD3-955B-3F1F5627211D}|Jita.Memcache.dll;{CF2F9F38-6023-45E4-8306-274896CA869B}|Jita.DAL.dll;{A6095750-6FF8-4C68-9D9E-B92F897339C3}|Jita.Data.Model.dll;"
+		ProjectReferences = "{D21CDAB5-41CC-4D87-96B1-67E7FC1C2571}|Jita.Config.dll;{C81B88F2-5AC2-4FD5-9017-4421DC63790C}|Jita.Common.dll;{95E1DB2E-C042-4874-8FB0-FC42B68B965A}|Jita.Cache.Service.dll;{E7D7756E-9ABE-4E8C-8287-DD2CE203DCF3}|Jita.Controller.dll;{DD18F081-71B8-46FF-B272-4308EEFE67B0}|Jita.Code.dll;{2F79C306-6BF2-48B7-B701-DA2A666416D4}|Jita.Common.Config.dll;{A22D83C5-A7DE-4753-9B24-EC03B2249AE2}|Jita.Common.Attr.dll;{9634D9FB-3DD5-4BD3-955B-3F1F5627211D}|Jita.Memcache.dll;{CF2F9F38-6023-45E4-8306-274896CA869B}|Jita.DAL.dll;{A6095750-6FF8-4C68-9D9E-B92F897339C3}|Jita.Data.Model.dll;{673EED26-B950-4A6B-86DA-C85CB2009D33}|Jita.Lucene.dll;{586019C4-11DC-46FF-B33C-F5432A08B861}|Jita.Enum.Model.dll;"
 		Debug.AspNetCompiler.VirtualPath = "/jita.com"
 		Debug.AspNetCompiler.PhysicalPath = "Jita.Web\jita.com\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\jita.com\"
@@ -89,6 +89,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jita.Common.Config", "Jita.Common.Config\Jita.Common.Config.csproj", "{2F79C306-6BF2-48B7-B701-DA2A666416D4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jita.ConsoleTool", "Jita.ConsoleTool\Jita.ConsoleTool.csproj", "{8E95ECDA-4F11-4C8C-B0A7-43DD50616D87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jita.UpdateLucene", "Jita.UpdateLucene\Jita.UpdateLucene.csproj", "{F61ABA19-3A7C-4B26-B50A-DC899232E5FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -270,6 +272,16 @@ Global
 		{8E95ECDA-4F11-4C8C-B0A7-43DD50616D87}.Release|Mixed Platforms.Build.0 = Release|x86
 		{8E95ECDA-4F11-4C8C-B0A7-43DD50616D87}.Release|x86.ActiveCfg = Release|x86
 		{8E95ECDA-4F11-4C8C-B0A7-43DD50616D87}.Release|x86.Build.0 = Release|x86
+		{F61ABA19-3A7C-4B26-B50A-DC899232E5FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F61ABA19-3A7C-4B26-B50A-DC899232E5FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F61ABA19-3A7C-4B26-B50A-DC899232E5FD}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{F61ABA19-3A7C-4B26-B50A-DC899232E5FD}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{F61ABA19-3A7C-4B26-B50A-DC899232E5FD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F61ABA19-3A7C-4B26-B50A-DC899232E5FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F61ABA19-3A7C-4B26-B50A-DC899232E5FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F61ABA19-3A7C-4B26-B50A-DC899232E5FD}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{F61ABA19-3A7C-4B26-B50A-DC899232E5FD}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{F61ABA19-3A7C-4B26-B50A-DC899232E5FD}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -288,6 +300,7 @@ Global
 		{D21CDAB5-41CC-4D87-96B1-67E7FC1C2571} = {C649033F-C958-48BE-AB5A-DBACEB538C1F}
 		{E7D7756E-9ABE-4E8C-8287-DD2CE203DCF3} = {67FD0C94-5D1B-479E-80A1-604C3DD81882}
 		{95E1DB2E-C042-4874-8FB0-FC42B68B965A} = {67FD0C94-5D1B-479E-80A1-604C3DD81882}
+		{F61ABA19-3A7C-4B26-B50A-DC899232E5FD} = {67FD0C94-5D1B-479E-80A1-604C3DD81882}
 		{DD18F081-71B8-46FF-B272-4308EEFE67B0} = {3CBF4826-5EBE-402D-B4F5-42F5B00F57C2}
 		{9634D9FB-3DD5-4BD3-955B-3F1F5627211D} = {3CBF4826-5EBE-402D-B4F5-42F5B00F57C2}
 		{673EED26-B950-4A6B-86DA-C85CB2009D33} = {3CBF4826-5EBE-402D-B4F5-42F5B00F57C2}

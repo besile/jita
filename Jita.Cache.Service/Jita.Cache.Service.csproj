@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bll\srv_HumorLucene.cs" />
     <Compile Include="bll\srv_HumorInfo.cs" />
     <Compile Include="model\m_CacheConfig.cs" />
     <Compile Include="model\m_CacheRemoveConfig.cs" />
@@ -71,6 +72,10 @@
     <ProjectReference Include="..\Jita.Data.Model\Jita.Data.Model.csproj">
       <Project>{A6095750-6FF8-4C68-9D9E-B92F897339C3}</Project>
       <Name>Jita.Data.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Jita.Lucene\Jita.Lucene.csproj">
+      <Project>{673EED26-B950-4A6B-86DA-C85CB2009D33}</Project>
+      <Name>Jita.Lucene</Name>
     </ProjectReference>
     <ProjectReference Include="..\Jita.Memcache\Jita.Memcache.csproj">
       <Project>{9634D9FB-3DD5-4BD3-955B-3F1F5627211D}</Project>

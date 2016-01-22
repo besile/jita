@@ -31,8 +31,25 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net, Version=1.2.11.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\CommonDll\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Lucene.Net">
+      <HintPath>..\CommonDll\Lucene.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="PanGu">
+      <HintPath>..\CommonDll\PanGu.dll</HintPath>
+    </Reference>
+    <Reference Include="PanGu.HighLight">
+      <HintPath>..\CommonDll\PanGu.HighLight.dll</HintPath>
+    </Reference>
+    <Reference Include="PanGu.Lucene.Analyzer">
+      <HintPath>..\CommonDll\PanGu.Lucene.Analyzer.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -40,8 +57,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="HumorLucene.cs" />
+    <Compile Include="LuceneIndex.cs" />
+    <Compile Include="LuceneManage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SplitContent.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Jita.Common.Attr\Jita.Common.Attr.csproj">
+      <Project>{A22D83C5-A7DE-4753-9B24-EC03B2249AE2}</Project>
+      <Name>Jita.Common.Attr</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Jita.Data.Model\Jita.Data.Model.csproj">
+      <Project>{A6095750-6FF8-4C68-9D9E-B92F897339C3}</Project>
+      <Name>Jita.Data.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Jita.Enum.Model\Jita.Enum.Model.csproj">
+      <Project>{586019C4-11DC-46FF-B33C-F5432A08B861}</Project>
+      <Name>Jita.Enum.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

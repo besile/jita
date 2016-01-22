@@ -11,11 +11,13 @@ namespace Jita.Data.Model
     {
         [Attr_CachePrimaryKey]
         [Attr_MatchField("Id")]
+        [Attr_Lucene("id",null,0)]
         public int Id { get; set; }
         /// <summary>
         /// 帖子标题
         /// </summary>
         [Attr_MatchField("HumorTitle")]
+        [Attr_Lucene("title", null, 1)]
         public string HumorTitle { get; set; }
         /// <summary>
         /// 帖子类型
@@ -31,6 +33,7 @@ namespace Jita.Data.Model
         /// 帖子内容
         /// </summary>
         [Attr_MatchField("HumorContent")]
+        [Attr_Lucene("content", null, 1)]
         public string HumorContent { get; set; }
         /// <summary>
         /// 帖子创建人Id

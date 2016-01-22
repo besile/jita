@@ -51,6 +51,10 @@
       <Project>{2F79C306-6BF2-48B7-B701-DA2A666416D4}</Project>
       <Name>Jita.Common.Config</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Jita.Memcache\Jita.Memcache.csproj">
+      <Project>{9634D9FB-3DD5-4BD3-955B-3F1F5627211D}</Project>
+      <Name>Jita.Memcache</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

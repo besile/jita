@@ -11,6 +11,7 @@ using Jita.Config;
 using Jita.Controller;
 using Jita.Controller.model;
 using Jita.Data.Model;
+using Jita.LuceneManger;
 
 namespace Jita.ConsoleTool
 {
@@ -18,10 +19,24 @@ namespace Jita.ConsoleTool
     {
         static void Main(string[] args)
         {
-            LoadGetCaseXml();
-            LoadCacheCaseXml();
+            #region 获取帖子列表测试 通过
+            //LoadGetCaseXml();
+            //LoadCacheCaseXml();
+            //var list = ctrl_ServiceClient.GetService<T_Humor_HumorInfo>(AppConfig.OpenCache, "通过逻辑层获取帖子列表", null);
+            #endregion
 
-            var list = ctrl_ServiceClient.GetService<T_Humor_HumorInfo>(AppConfig.OpenCache, "通过逻辑层获取帖子列表", null);
+            #region 帖子搜索测试 通过
+            //int total;
+            //var list = LuceneIndex.GetList<T_Humor_HumorInfo>("屌爆了", 1, 10, new string[] { "title", "content" }, out total);
+            #endregion
+
+            #region 测试添加索引 通过
+            //foreach (var humor in list)
+            //{
+            //    LuceneIndex.InsertToIndex<T_Humor_HumorInfo>(humor);
+            //}
+            #endregion
+            
         }
 
 

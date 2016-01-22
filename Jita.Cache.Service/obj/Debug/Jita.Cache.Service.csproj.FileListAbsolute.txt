@@ -21,3 +21,11 @@ E:\work\Jita\Jita.Cache.Service\bin\Debug\Jita.DAL.dll
 E:\work\Jita\Jita.Cache.Service\bin\Debug\Jita.Data.Model.dll
 E:\work\Jita\Jita.Cache.Service\bin\Debug\Jita.DAL.pdb
 E:\work\Jita\Jita.Cache.Service\bin\Debug\Jita.Data.Model.pdb
+E:\work\Jita\Jita.Cache.Service\bin\Debug\Jita.Lucene.dll
+E:\work\Jita\Jita.Cache.Service\bin\Debug\Lucene.Net.dll
+E:\work\Jita\Jita.Cache.Service\bin\Debug\PanGu.Lucene.Analyzer.dll
+E:\work\Jita\Jita.Cache.Service\bin\Debug\PanGu.HighLight.dll
+E:\work\Jita\Jita.Cache.Service\bin\Debug\PanGu.dll
+E:\work\Jita\Jita.Cache.Service\bin\Debug\Jita.Lucene.pdb
+E:\work\Jita\Jita.Cache.Service\bin\Debug\Lucene.Net.xml
+E:\work\Jita\Jita.Cache.Service\bin\Debug\PanGu.xml

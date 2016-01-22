@@ -35,3 +35,9 @@ E:\work\Jita\Jita.ConsoleTool\obj\x86\Debug\Jita.ConsoleTool.pdb
 E:\work\Jita\Jita.ConsoleTool\bin\Debug\CacheCase.xml
 E:\work\Jita\Jita.ConsoleTool\bin\Debug\InvokeCase.xml
 E:\work\Jita\Jita.ConsoleTool\bin\Debug\Jita.Utils.CommonPlatformConfig.config
+E:\work\Jita\Jita.ConsoleTool\bin\Debug\Lucene.Net.dll
+E:\work\Jita\Jita.ConsoleTool\bin\Debug\PanGu.Lucene.Analyzer.dll
+E:\work\Jita\Jita.ConsoleTool\bin\Debug\PanGu.HighLight.dll
+E:\work\Jita\Jita.ConsoleTool\bin\Debug\PanGu.dll
+E:\work\Jita\Jita.ConsoleTool\bin\Debug\Lucene.Net.xml
+E:\work\Jita\Jita.ConsoleTool\bin\Debug\PanGu.xml

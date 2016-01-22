@@ -47,6 +47,7 @@
   <ItemGroup>
     <Compile Include="com_GlobalDic.cs" />
     <Compile Include="com_HtmlHelper.cs" />
+    <Compile Include="com_LuceneFillHelper.cs" />
     <Compile Include="com_MemcacheCacheManager.cs" />
     <Compile Include="com_ModelFillHelper.cs" />
     <Compile Include="com_Pager.cs" />
